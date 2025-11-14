@@ -1,0 +1,77 @@
+{
+  "file": "sample_input.txt",
+  "transcript_summaries": [
+    {
+      "transcript_id": "sample_input",
+      "category": "sam",
+      "num_turns": 18,
+      "top_symptoms": [
+        "pain",
+        "numbness",
+        "tingling"
+      ],
+      "locations": [
+        "back",
+        "lower",
+        "right",
+        "leg"
+      ],
+      "durations": [
+        "a month"
+      ],
+      "severity": "worse",
+      "progression": [
+        "getting worse",
+        "constant"
+      ],
+      "medications": [],
+      "history": [],
+      "symptom_details": [
+        {
+          "symptom": "pain",
+          "locations": [
+            "back",
+            "lower",
+            "right"
+          ],
+          "durations": [],
+          "severity": "mild",
+          "progression": [
+            "getting worse",
+            "constant"
+          ],
+          "example_utterance": "I've had this pain in my back thats kind of like in my lower back and my buttocks and it's now radiating down to my right leg. I've had this for awhile now, but it's getting worse and I just want to come get it checked out."
+        },
+        {
+          "symptom": "numbness",
+          "locations": [],
+          "durations": [],
+          "severity": null,
+          "progression": [],
+          "example_utterance": "OK, and do you feel any kind of numbness or tingling with it?"
+        },
+        {
+          "symptom": "tingling",
+          "locations": [],
+          "durations": [],
+          "severity": null,
+          "progression": [],
+          "example_utterance": "OK, and do you feel any kind of numbness or tingling with it?"
+        }
+      ],
+      "intents_count": {
+        "Ask_General": 3,
+        "Provide_Symptom": 3,
+        "Ask_Duration": 1,
+        "Patient_Other": 3,
+        "Doctor_Other": 4,
+        "Provide_Severity": 2,
+        "Ask_Location": 1,
+        "Provide_Location": 1
+      },
+      "examples": [
+        "I've had this pain in my back thats kind of like in my lower back and my buttocks and it's now radiating down to my right leg. I've had this for awhile now, but it's getting worse and I just want to come get it checked out."
+      ]
+    }
+  ]
+}
